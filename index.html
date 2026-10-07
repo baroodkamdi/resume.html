@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vaibhav Kamdi — Senior Threat Hunter and Cybersecurity Professional specializing in threat hunting, incident response, detection engineering, threat intelligence, malware analysis and security automation.">
+  <meta name="author" content="Vaibhav Kamdi">
+  <meta property="og:title" content="Vaibhav Kamdi | Senior Threat Hunter">
+  <meta property="og:description" content="Threat Hunting • DFIR • Detection Engineering • Threat Intelligence • Malware Analysis • Security Automation">
+  <meta property="og:type" content="website">
+  <title>Vaibhav Kamdi | Senior Threat Hunter & Cybersecurity Professional</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <header class="nav">
+    <a class="brand" href="#home"><span>VK</span> / SECURITY</a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav-links">
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-resume" href="resume.html">Resume ↗</a>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy">
+        <div class="status"><i></i> OPEN TO CYBERSECURITY OPPORTUNITIES</div>
+        <p class="eyebrow">SENIOR THREAT HUNTER · CYBERSECURITY</p>
+        <h1>Hunt threats.<br><em>Engineer detections.</em><br>Investigate attacks.</h1>
+        <p class="lead">Cybersecurity professional focused on threat hunting, incident response, detection engineering, threat intelligence, malware analysis and security automation.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="resume.html">View Resume</a>
+          <a class="btn ghost" href="#projects">Explore Work</a>
+        </div>
+        <div class="metrics">
+          <div><strong>6.5+</strong><span>Years in Cybersecurity</span></div>
+          <div><strong>MITRE</strong><span>ATT&CK-driven investigations</span></div>
+          <div><strong>AI + SOC</strong><span>Security automation & tooling</span></div>
+        </div>
+      </div>
+      <div class="terminal">
+        <div class="terminal-bar"><span></span><span></span><span></span><b>threat-hunter@lab:~</b></div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="out">vaibhav.kamdi</p>
+          <p><span class="prompt">$</span> cat specialization.txt</p>
+          <p class="out">Threat Hunting<br>Incident Response<br>Detection Engineering<br>Threat Intelligence<br>Malware Analysis</p>
+          <p><span class="prompt">$</span> ./hunt --mode=continuous</p>
+          <p class="success">[+] hypotheses loaded<br>[+] telemetry correlated<br>[+] detections engineered<br>[+] investigation complete</p>
+          <span class="cursor">▋</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <p class="eyebrow">01 / PROFILE</p>
+        <h2>Security operations with a <em>research mindset.</em></h2>
+      </div>
+      <div class="prose">
+        <p>I work across the security lifecycle — from developing a hunting hypothesis and correlating SIEM/EDR telemetry to mapping attacker behavior, engineering detections and documenting actionable findings.</p>
+        <p>My technical interests extend into malware analysis, reverse engineering, threat intelligence and building security automation that reduces repetitive SOC investigation work.</p>
+        <div class="chips"><span>Threat Hunting</span><span>DFIR</span><span>Detection Engineering</span><span>Malware Analysis</span><span>Threat Intel</span><span>Python</span></div>
+      </div>
+    </section>
+
+    <section id="expertise" class="section">
+      <div class="section-head">
+        <div><p class="eyebrow">02 / CORE EXPERTISE</p><h2>What I work on</h2></div>
+        <p class="muted">A practical security engineering toolkit built around investigation and detection.</p>
+      </div>
+      <div class="cards expertise-grid">
+        <article class="card"><div class="icon">⌕</div><h3>Threat Hunting</h3><p>Hypothesis-driven hunting across SIEM, EDR, endpoint, network and intelligence telemetry.</p><div class="tags"><span>SPL</span><span>MITRE ATT&CK</span><span>SIEM</span></div></article>
+        <article class="card"><div class="icon">⚡</div><h3>Incident Response</h3><p>IOC analysis, investigation, attack-chain reconstruction, containment guidance and post-incident analysis.</p><div class="tags"><span>DFIR</span><span>IOC</span><span>Timeline</span></div></article>
+        <article class="card"><div class="icon">⌁</div><h3>Detection Engineering</h3><p>Designing and tuning detections from threat intelligence, attacker behavior and observed telemetry.</p><div class="tags"><span>Sigma</span><span>YARA</span><span>SPL</span></div></article>
+        <article class="card"><div class="icon">◈</div><h3>Malware Analysis</h3><p>Static and dynamic analysis workflows covering PE structure, strings, entropy, behavior and TTP mapping.</p><div class="tags"><span>Ghidra</span><span>REMnux</span><span>capa</span></div></article>
+        <article class="card"><div class="icon">◎</div><h3>Threat Intelligence</h3><p>IOC enrichment, TTP analysis and intelligence-driven investigation using structured threat context.</p><div class="tags"><span>Recorded Future</span><span>MISP</span><span>IOC</span></div></article>
+        <article class="card"><div class="icon">⌘</div><h3>Security Automation</h3><p>Python and API-driven tooling to automate analysis, reporting, hunting and SOC workflows.</p><div class="tags"><span>Python</span><span>FastAPI</span><span>Docker</span></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <div><p class="eyebrow">03 / FEATURED PROJECTS</p><h2>Proof of work</h2></div>
+        <p class="muted">Selected projects that demonstrate how I apply security knowledge in practice.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project featured">
+          <div class="project-top"><span class="project-num">01</span><span class="label">AI · SOC AUTOMATION</span></div>
+          <h3>ThreatHunterAI</h3>
+          <p>Agentic security investigation platform concept for SOC and threat hunting workflows — combining advisory analysis, IOC extraction, TTP mapping, SPL generation, Sigma generation and investigation assistance.</p>
+          <div class="architecture">PDF / Advisory → <b>Agents</b> → IOC + TTP → <b>Hunt</b> → SPL / Sigma → Investigation Report</div>
+          <div class="tags"><span>Python</span><span>FastAPI</span><span>LLM</span><span>MITRE</span><span>SPL</span><span>Sigma</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-num">02</span><span class="label">MALWARE</span></div>
+          <h3>Malware Analysis Workbench</h3>
+          <p>Security analysis workflow covering static triage, PE metadata, strings, entropy, YARA, capability analysis, dynamic behavior and MITRE ATT&CK mapping.</p>
+          <div class="tags"><span>REMnux</span><span>Ghidra</span><span>YARA</span><span>capa</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-num">03</span><span class="label">DFIR · AUTOMATION</span></div>
+          <h3>EVTX → MITRE Mapper</h3>
+          <p>Python-based workflow for extracting useful Windows event information and mapping security-relevant telemetry to ATT&CK techniques.</p>
+          <div class="tags"><span>Python</span><span>EVTX</span><span>MITRE ATT&CK</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="project-num">04</span><span class="label">DETECTION</span></div>
+          <h3>Detection Engineering Lab</h3>
+          <p>Hands-on experiments converting attacker behavior and intelligence into Sigma/YARA/SPL detection logic and testing false-positive behavior.</p>
+          <div class="tags"><span>Sigma</span><span>YARA</span><span>SPL</span><span>SOC Prime</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="research" class="section research">
+      <div class="section-head">
+        <div><p class="eyebrow">04 / RESEARCH & BLOG</p><h2>Write-ups that show how I think.</h2></div>
+        <p class="muted">Technical articles should demonstrate methodology, not just definitions.</p>
+      </div>
+      <div class="research-list">
+        <a class="research-item" href="blog.html"><span>THREAT HUNTING</span><h3>From Hypothesis → Telemetry → Detection</h3><b>Read article →</b></a>
+        <a class="research-item" href="blog.html"><span>MALWARE ANALYSIS</span><h3>Static Malware Analysis: A Practical Workflow</h3><b>Read article →</b></a>
+        <a class="research-item" href="blog.html"><span>DETECTION ENGINEERING</span><h3>Turning Threat Intelligence into Sigma Rules</h3><b>Read article →</b></a>
+        <a class="research-item" href="blog.html"><span>DFIR</span><h3>Mapping Windows Telemetry to MITRE ATT&CK</h3><b>Read article →</b></a>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-head"><div><p class="eyebrow">05 / EXPERIENCE</p><h2>Career progression</h2></div></div>
+      <div class="timeline">
+        <article><div class="time">CURRENT / RECENT</div><div><h3>Senior Threat Hunter</h3><p class="muted">Enterprise BFSI security environment</p><ul><li>Threat hunting and investigation across SIEM, EDR and intelligence sources.</li><li>Detection development and tuning aligned with MITRE ATT&CK.</li><li>Security investigation, IOC analysis and incident response support.</li></ul></div></article>
+        <article><div class="time">PREVIOUS</div><div><h3>Senior Security Analyst</h3><p class="muted">MSSP / Security Operations</p><ul><li>Security monitoring, investigation, escalation and detection optimization.</li><li>Worked with SIEM and security monitoring platforms in operational SOC environments.</li></ul></div></article>
+        <article><div class="time">FOUNDATION</div><div><h3>Security Engineering & Research</h3><p class="muted">Infrastructure → cybersecurity specialization</p><ul><li>Progressed from infrastructure/security fundamentals into advanced threat hunting, DFIR and malware analysis.</li></ul></div></article>
+      </div>
+    </section>
+
+    <section class="section education">
+      <div class="section-head"><div><p class="eyebrow">06 / CERTIFICATIONS & EDUCATION</p><h2>Credentials</h2></div></div>
+      <div class="credential-grid">
+        <div class="credential"><strong>ECIH</strong><span>EC-Council</span></div>
+        <div class="credential"><strong>PG Diploma</strong><span>IT Infrastructure System & Security · C-DAC</span></div>
+        <div class="credential"><strong>LRPA</strong><span>LogRhythm Platform Administrator</span></div>
+        <div class="credential"><strong>LRSA</strong><span>LogRhythm Security Analyst</span></div>
+        <div class="credential"><strong>Security+</strong><span>Great Learning Academy</span></div>
+        <div class="credential"><strong>B.E.</strong><span>Civil Engineering · 2018</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div>
+        <p class="eyebrow">07 / CONTACT</p>
+        <h2>Let's talk security.</h2>
+        <p class="lead">For threat hunting, security engineering, incident response, detection engineering or cybersecurity opportunities, connect with me.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="contact-link" href="resume.html">📄 Resume <span>↗</span></a>
+        <a class="contact-link" href="https://github.com/" target="_blank" rel="noopener">⌘ GitHub <span>↗</span></a>
+        <a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noopener">in LinkedIn <span>↗</span></a>
+        <a class="contact-link" href="mailto:YOUR_EMAIL@example.com">✉ Email <span>↗</span></a>
+      </div>
+      <p class="small-note">Replace the placeholder GitHub, LinkedIn and email links before publishing.</p>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Vaibhav Kamdi</span><span>Threat Hunting · DFIR · Detection Engineering</span></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research & Blog | Vaibhav Kamdi</title><link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<header class="nav"><a class="brand" href="index.html"><span>VK</span> / SECURITY</a><nav><a href="index.html">← Portfolio</a></nav></header>
+<main class="section blog-page">
+<p class="eyebrow">RESEARCH / BLOG</p><h1>Security research & technical write-ups.</h1>
+<p class="lead">This section is structured for future technical articles. Replace the starter content with your published write-ups, sanitized investigation cases and lab research.</p>
+<div class="article-layout">
+<article class="article"><span>THREAT HUNTING · INTERMEDIATE</span><h2>From Hypothesis → Telemetry → Detection</h2><p>A practical threat hunting workflow begins with a falsifiable hypothesis. From there, identify the telemetry needed to validate it, investigate anomalies, map behavior to ATT&CK and turn confirmed behavior into a reusable detection.</p><h3>1. Start with a hypothesis</h3><p>Example: suspicious PowerShell execution may indicate execution, persistence or payload delivery activity. Define what evidence should exist if the hypothesis is true.</p><h3>2. Identify data sources</h3><p>Windows process creation, PowerShell logs, network telemetry, EDR events and authentication activity can provide complementary evidence.</p><h3>3. Investigate and map behavior</h3><p>Correlate timestamps, users, hosts, parent-child processes, command lines and network destinations. Map confirmed behaviors to ATT&CK rather than mapping every suspicious event automatically.</p><h3>4. Engineer the detection</h3><p>Turn high-confidence patterns into Sigma/SPL logic, then test the detection against expected benign activity and tune false positives.</p><div class="callout">Research principle: <b>Don't hunt for alerts. Hunt for behaviors.</b></div></article>
+<aside class="blog-side"><h3>Suggested articles</h3><a href="#">Static Malware Analysis Workflow</a><a href="#">Turning Threat Intelligence into Sigma</a><a href="#">EVTX to MITRE ATT&CK Mapping</a><a href="#">Analyzing a Suspicious DLL</a><a href="#">Building Security Automation with Python</a></aside>
+</div></main><footer><span>© <span id="year"></span> Vaibhav Kamdi</span></footer><script src="assets/app.js"></script></body></html>
